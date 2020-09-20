@@ -3,7 +3,7 @@ require 'pry'
 def hello(array)
   i = 0
   while i < array.length
- S blinding.pry
+   blinding.pry
     yield(array[i])
     i += 1
   end
